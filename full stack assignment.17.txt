@@ -1,0 +1,41 @@
+1.
+It means the greedy quantifiers will match their preceding elements as much as possible to return to the biggest match possible.
+ On the other hand, the non-greedy quantifiers will match as little as possible to return the smallest match possible.
+ non-greedy quantifiers are the opposite of greedy ones.
+2.
+The greedy match will try to match as many repetitions of the quantified pattern as possible. 
+The non-greedy match will try to match as few repetitions of the quantified pattern as possible.
+3.
+A non-capturing group lets us use the grouping inside a regular expression without changing the numbers assigned to the back references (explained in the next section). 
+This can be very useful in building large and complex regular expressions.
+4.
+Program outcomes examine what a program or process is to do, achieve, 
+or accomplish for its own improvement and/or in support of institutional or divisional goals:
+ generally numbers, needs, or satisfaction driven. 
+They can address quality, quantity, fiscal sustainability, facilities and infrastructure, or growth.
+5.
+Lookahead is used as an assertionin Python regular expressions to determine success or failure
+ whether the pattern is ahead i.e to the right of the parser's current position. 
+They don't match anything. Hence, they are called as zero-width assertions.
+6.
+Positive lookahead: (?= «pattern») matches if pattern matches what comes after the current location in the input string.
+ Negative lookahead: (?! «pattern») matches if pattern does not match what comes after the current location in the input string.
+7.
+A more significant feature is named groups: instead of referring to them by numbers,If a regex has multiple groups with the same name,
+ backreferences using that name can match the text captured by any group with that name that appears to the left of the backreference in the regex.
+ Substituted with the text matched by the named group “name”.
+8.
+Import the regex module with import re.
+Create a Regex object with the re. compile() function. ...
+Pass the string you want to search into the Regex object's search() method. ...
+Call the Match object's group() method to return a string of the actual matched text.
+9.
+findall() findall() module is used to search for “all” occurrences that match a given pattern. 
+In contrast, search() module will only return the first occurrence that matches the specified pattern.
+10.
+What line creates a Scanner object for you?
+In the main function, the first line creates a scanner object using the “System.in” object for the keyboard. 
+As soon as the scanner object is created, it starts waiting for input. The next line prints a statement,
+ asking the user to type in a sentence.
+
+
